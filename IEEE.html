@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="phone.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://i.pinimg.com/originals/71/78/80/71788000897dcc9b4129b1e8c4197f8a.jpg);
+        }
+        header{
+            display: flex;
+            background-color: black;
+            border: 2px solid red;
+            border-radius: 15px;
+            height: 50px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            color: wheat;
+        }
+        nav{
+            border: 2px solid red;
+            border-radius: 15px;
+            margin-top: 10px;
+            background-color: lightslategray;
+            display: flex;
+            flex-direction: column;
+        }
+        nav li{
+            display: inline;
+            height: 15px;
+            width: 150px;
+            margin-top: 10px;
+        }
+        nav li a{
+            border-radius: 12px;
+            text-decoration: none;
+            margin-left: 50px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 20px;
+            color: black;
+        }
+        nav li a:hover{
+            background-color: aliceblue;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid red;
+            border-radius: 2px;
+            height: 950px;
+            width: 80%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            border-radius: 25px;
+            margin-left: 150px;
+        }
+        #img{
+            margin: auto;
+            height: 400px;
+            width: 500px;
+            border: 4px solid white;
+            border-radius: 2px;
+        }
+        #img img{
+            height: 400px;
+            width: 500px;
+        }
+        #desc{
+            background-color: black;
+            margin: auto;
+            height: 348px;
+            width: 500px;
+            border: 4px solid white;
+            border-radius: 2px;
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            padding: 15px 15px 15px 15px;
+            margin-top: 50px;
+        }
+        #reg{
+            height: 25px;
+            width: 100px;
+            font-size: 18px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 5px 5px 5px 5px;
+        }
+        #reg a{
+            background-color: black;
+            border: 6px solid black;
+            border-radius: 8px;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+        }
+        #reg a:hover{
+            background-color: antiquewhite;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>IEEE National Institute of Technology Durgapur</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="box" id="img"><img src="https://scontent.frdp4-1.fna.fbcdn.net/v/t39.30808-6/318639855_535727688570934_6658427200486148970_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9Azwgf6HepYAX8trfq9&_nc_ht=scontent.frdp4-1.fna&oh=00_AfASEsJ96GlcTaNX_Br_do6VTw7fDEsMWB8VdfxyePu38A&oe=63DB49EB" alt=""></div>
+        <div class="box" id="desc">Hello guys! Hope you all are doing well and enjoying the campus.
+            IEEE SB NIT Durgapur presents to all of you FlexFlow, a two days long Web Development workshop, going to be conducted on 10th and 11th Dec. In this workshop, you will learn web development fundamentals including HTML, CSS, Flexbox, and many more. It has been designed exclusively for you guys and everything will be taught from scratch. And the best thing about the event is that the registration is completely free and everyone who completes the workshop successfully will be provided with a participation certificate which will be a perfect add-on to your CV. 
+            So, mark the dates and be ready to give a kickstart to your WebD skills with IEEE SB NIT Durgapur. What are you waiting for, hurry up and register now!!
+            Link for registration:
+            http://lnkiy.in/flexflow
+            Also, don't forget to check out our social media handles to know more about IEEE.
+            <p>Instagram- https://www.instagram.com/ieeesb_nitdgp/</p>
+            <p>Facebook- https://www.facebook.com/nitdgpieeesociety</p>
+            <p>LinkedIn- https://www.linkedin.com/company/ieeesbnitdgp/</p>
+            The meeting link for the event will be provided to you in due course of time. We look forward to seeing you all at the event.</div>
+            <div class="box" id="reg"><a href="#">REGISTER</a></div>
+    </div>
+</body>
+</html>
